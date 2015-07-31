@@ -4055,7 +4055,7 @@ PaymentProtocol.prototype.verify = function(returnTrust) {
 };
 
 function magicHash(str) {
-  var magicBytes = new Buffer('Bitcoin Signed Message:\n');
+  var magicBytes = new Buffer('Monetaryunit Signed Message:\n');
   var prefix1 = varintBufNum(magicBytes.length);
   var message = new Buffer(str);
   var prefix2 = varintBufNum(message.length);
@@ -24519,7 +24519,7 @@ var JSUtil = require('./util/js');
  * @example
  * ```javascript
  *
- * var uri = new URI('bitcoin:12A1MyfXbW6RhdRAZEqofac5jCQQjwEPBu?amount=1.2');
+ * var uri = new URI('monetaryunit:12A1MyfXbW6RhdRAZEqofac5jCQQjwEPBu?amount=1.2');
  * console.log(uri.address, uri.amount);
  * ```
  *
@@ -24585,7 +24585,7 @@ URI.fromJSON = function fromJSON(json) {
  * @example
  * ```javascript
  *
- * var valid = URI.isValid('bitcoin:12A1MyfXbW6RhdRAZEqofac5jCQQjwEPBu');
+ * var valid = URI.isValid('monetaryunit:12A1MyfXbW6RhdRAZEqofac5jCQQjwEPBu');
  * // true
  * ```
  *
@@ -24612,7 +24612,7 @@ URI.isValid = function(arg, knownParams) {
 URI.parse = function(uri) {
   var info = URL.parse(uri, true);
 
-  if (info.protocol !== 'bitcoin:') {
+  if (info.protocol !== 'monetaryunit:') {
     throw new TypeError('Invalid bitcoin URI');
   }
 
@@ -24711,7 +24711,7 @@ URI.prototype.toString = function() {
   _.extend(query, this.extras);
 
   return URL.format({
-    protocol: 'bitcoin:',
+    protocol: 'monetaryunit:',
     host: this.address,
     query: query
   });
