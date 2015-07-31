@@ -95,7 +95,7 @@ var ServerCompromisedError = require('./servercompromisederror');
 var ClientError = require('./clienterror');
 var Package = require('../package.json');
 
-var BASE_URL = 'http://localhost:3232/bws/api';
+var BASE_URL = 'https://bws.monetaryunit.org/bws/api';
 
 /**
  * @desc ClientAPI constructor.
