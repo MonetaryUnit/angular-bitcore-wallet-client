@@ -7,10 +7,10 @@
   "devDependencies": {
     "browserify": "^9.0.3",
     "uglify": "^0.1.1",
-    "bitcore-wallet-client": "0.0.42"
+    "bitcore-wallet-client": "MonetaryUnit/bitcore-wallet-client#MUE"
   },
   "repository": {
-    "url": "git://github.com/bitpay/angular-bitcore-wallet-client.git",
+    "url": "git://github.com/MonetaryUnit/angular-bitcore-wallet-client.git",
     "type": "git"
   }
 }

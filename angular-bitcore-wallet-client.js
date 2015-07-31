@@ -39715,7 +39715,7 @@ module.exports={
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bitpay/bitcore.git"
+    "url": "git+https://github.com/MonetaryUnit/bitcore.git"
   },
   "browser": {
     "request": "browser-request"
@@ -39739,9 +39739,9 @@ module.exports={
   "license": "MIT",
   "gitHead": "b83b0cfb2b41247737d2d4f1da96787a3ade30fe",
   "bugs": {
-    "url": "https://github.com/bitpay/bitcore/issues"
+    "url": "https://github.com/MonetaryUnit/bitcore/issues"
   },
-  "homepage": "https://github.com/bitpay/bitcore#readme",
+  "homepage": "https://github.com/MonetaryUnit/bitcore#readme",
   "_id": "bitcore@0.12.13",
   "_shasum": "9a0513dfd3c246e4e2c87da59389e8a1e473dec3",
   "_from": "bitcore@^0.12.9",
@@ -90722,11 +90722,11 @@ module.exports={
   ],
   "main": "index.js",
   "repository": {
-    "url": "git@github.com:bitpay/bitcore-wallet-client.git",
+    "url": "git@github.com:MonetaryUnit/bitcore-wallet-client.git",
     "type": "git"
   },
   "bugs": {
-    "url": "https://github.com/bitpay/bitcore-wallet-client/issues"
+    "url": "https://github.com/MonetaryUnit/bitcore-wallet-client/issues"
   },
   "dependencies": {
     "async": "^0.9.0",
@@ -90773,7 +90773,7 @@ module.exports={
     }
   ],
   "gitHead": "f0f97b1c034b98bfa21ca42d05f7df2e75cb0bf4",
-  "homepage": "https://github.com/bitpay/bitcore-wallet-client",
+  "homepage": "https://github.com/MonetaryUnit/bitcore-wallet-client",
   "_id": "bitcore-wallet-client@0.0.42",
   "_shasum": "25113394ac15968642a7793db7212118554c07e7",
   "_from": "bitcore-wallet-client@0.0.42",

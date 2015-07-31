@@ -1,5 +1,5 @@
 # angular-bitcore-wallet-client
-AngularJS module for [bitcore-wallet-client](https://github.com/bitpay/bitcore-wallet-client)
+AngularJS module for [bitcore-wallet-client](https://github.com/MonetaryUnit/bitcore-wallet-client)
 
 ## Get started
 
@@ -25,7 +25,7 @@ var myApp = angular.module('myApp', modules);
 
 ## Use
 
-See the [API referece](https://github.com/bitpay/bitcore-wallet-client) for more details.
+See the [API referece](https://github.com/MonetaryUnit/bitcore-wallet-client) for more details.
 
 ```javascript
 angular.module('myApp').factory('myService', 
@@ -47,4 +47,4 @@ angular.module('myApp').factory('myService',
   }
 );
 ```
-See Complete API at [Bitcore Wallet Client Readme](https://github.com/bitpay/bitcore-wallet-client)
+See Complete API at [Bitcore Wallet Client Readme](https://github.com/MonetaryUnit/bitcore-wallet-client)
